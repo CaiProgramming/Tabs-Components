@@ -5,6 +5,7 @@ class TabLink {
     this.element = element;
     // Get the custom data attribute on the Link
     // this.data;
+    //this.data = this.element.dataset.tab
     this.data = this.element.getAttribute("data-tab");
 
     // Using the custom data attribute get the associated Item element
