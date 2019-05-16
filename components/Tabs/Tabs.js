@@ -43,10 +43,8 @@ class TabItem {
   }
 
   select() {
-    console.log(this.element);
     // Select all ".tabs-item" elements from the DOM
     const items = document.querySelectorAll(".tabs-item");
-    console.log(items);
     // Remove the class "tabs-item-selected" from each element
     Array.from(items).forEach(el => el.classList.remove("tabs-item-selected"));
 
